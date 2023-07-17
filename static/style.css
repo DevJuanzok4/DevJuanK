@@ -6,7 +6,7 @@ body {
     font-family: 'Hammersmith One', sans-serif;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 #header {
@@ -67,24 +67,23 @@ body {
 
 .nav-menu {
     padding: 1.5rem;
-}
-
-.nav-menu a i,
-.nav-menu a:focus a {
+  }
+  
+  .nav-menu a,
+  .nav-menu a:focus {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    color: #a8a9b4;
     transition: 0.3s;
-    color: rgb(115, 128, 139);
-}
-
-
-.nav-menu a i,
-.nav-menu a:focus i {
+    font-size: 15px;
+  }
+  
+  .nav-menu a i,
+  .nav-menu a:focus i {
     font-size: 24px;
     padding-right: 0.8rem;
-    color: rgb(179, 170, 160);
-}
+    color: #6f7180;
+  }
 
 .nav-menu a:hover,
 .nav-menu .active,
@@ -93,6 +92,16 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
 
 .nav-menu a:hover i,
 .nav-menu .active i,
