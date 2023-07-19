@@ -78,12 +78,14 @@ body {
     font-size: 15px;
   }
   
+  
   .nav-menu a i,
   .nav-menu a:focus i {
     font-size: 24px;
     padding-right: 0.8rem;
     color: #6f7180;
   }
+  
 
 .nav-menu a:hover,
 .nav-menu .active,
@@ -150,23 +152,23 @@ section#inicio div#arraste a {
 
 i.menu-mobile {
     position: fixed;
-    color: #ffffff;
-    background-color: #1815a7;
+    color: #fff;
+    background-color: #252c90;
     right: 1rem;
     top: 1rem;
     font-size: 1.5rem;
-    border-radius: 5rem;
+    border-radius: 4rem;
     cursor: pointer;
     z-index: 10;
     width: 45px;
     height: 45px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
-}
+  }
 
 .menu-nav-active {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .menu-nav-active #header {
@@ -174,27 +176,22 @@ i.menu-mobile {
 }
 
 @media (max-width: 1024px) {
-
-    #header {
-        left: -300px;
-    }
-
-    i.mobile {
-        display: flex;
-    }
-
-    section#inicio h2 {
-        font-size: 3.5rem;
-    }
-
-    section#inicio span#subtitle {
-        margin: 0;
-        font-size: 1rem;
-    }
-
-    #main {
-        margin-left: 0px;
-    }
+  #header {
+    left: -300px;
+  }
+  i.menu-mobile{
+    display: flex;
+  }
+  section#inicio h2{
+    font-size: 3.5rem ;
+  }
+  section#inicio span#subtitle{
+    margin-right: 0;
+    font-size: 1rem;
+  }
+  #main{
+      margin-left: 0;
+  }
 }
 
 *::-webkit-scrollbar{
@@ -215,3 +212,54 @@ i.menu-mobile {
   border-color: #4a37f8;
   border-radius: 25%;
 }
+
+
+
+#html:hover{
+    font-size: 70px;
+   color: orangered;
+}
+
+
+#css:hover{
+    color: blue ;
+ }
+
+
+#sql:hover{
+    color: grey ;
+ }
+
+
+#php:hover{
+    color: rgb(185, 152, 238) ;
+ }
+
+
+#js:hover{
+    color: orange ;
+ }
+
+ #habilidades{
+    background-color: #2c2f3f;
+ }
+
+ #html{
+  color: white;
+ }
+ 
+ #css{
+ color: white;
+ }
+
+ #sql{
+    color: #fff;
+ }
+
+ #js{
+    color: #fff;
+ }
+
+ #php{
+    color: #fff;
+ }
