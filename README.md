@@ -1,18 +1,6 @@
-# Nome do Projeto
+# Meu Portifólio
 
 Uma breve descrição do projeto vai aqui.
-
-## Tabela de Conteúdos (opcional)
-
-- [Sobre o Projeto](#sobre-o-projeto)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Começando](#começando)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Contato](#contato)
 
 ## Sobre o Projeto
 
@@ -20,7 +8,7 @@ Uma breve descrição do projeto vai aqui.
 
 ### Tecnologias Utilizadas
 
-- Lista das principais tecnologias utilizadas no projeto.
+- Html, Css, Python, Flask, Bootstrap e JavaScript
 
 ## Começando
 
