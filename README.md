@@ -4,7 +4,7 @@ Uma breve descrição do projeto vai aqui.
 
 ## Sobre o Projeto
 
-[Coloque uma breve descrição do projeto aqui.]
+[Bem-vindo ao meu portfólio de desenvolvimento web! Aqui, compartilho alguns projetos nos quais trabalhei, demonstrando minhas habilidades e aprendizados ao longo dos anos. Sou apaixonado por tecnologia e sempre busco aprimorar minhas competências técnicas e criativas.]
 
 ### Tecnologias Utilizadas
 
