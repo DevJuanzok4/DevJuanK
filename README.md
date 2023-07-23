@@ -1,7 +1,5 @@
 # Meu Portifólio
 
-Uma breve descrição do projeto vai aqui.
-
 ## Sobre o Projeto
 
  Bem-vindo ao meu portfólio de desenvolvimento web! Aqui, compartilho alguns projetos nos quais trabalhei, demonstrando minhas habilidades e aprendizados ao longo dos anos. Sou apaixonado por tecnologia e sempre busco aprimorar minhas competências técnicas e criativas. 
@@ -14,7 +12,7 @@ Uma breve descrição do projeto vai aqui.
 
 ### Pré-requisitos
 
-- Liste aqui o que é necessário para rodar o projeto, como dependências, linguagens de programação, etc.
+- Python e Flask, e as extensões de python e code runner.
 
 ### Instalação
 
