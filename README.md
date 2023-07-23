@@ -18,5 +18,7 @@
 
 1. Descreva os passos necessários para instalar o projeto.
    ```sh
-   git clone https://github.com/seu-usuario/seu-projeto.git
-   cd seu-projeto
+   git clone https://github.com/DevJuanzok4/DevJuanK.git
+
+
+   Após a instalação, localize a pasta Pasta DevJuanK, e abra o app.py, e inicie atráves do code runner.
