@@ -68,7 +68,7 @@ body {
 .nav-menu {
     padding: 1.5rem;
   }
-  
+
   .nav-menu a,
   .nav-menu a:focus {
     display: flex;
@@ -77,15 +77,15 @@ body {
     transition: 0.3s;
     font-size: 15px;
   }
-  
-  
+
+
   .nav-menu a i,
   .nav-menu a:focus i {
     font-size: 24px;
     padding-right: 0.8rem;
     color: #6f707a;
   }
-  
+
 
 .nav-menu a:hover,
 .nav-menu .active,
@@ -206,7 +206,7 @@ i.menu-mobile {
 
 *::-webkit-scrollbar-thumb{
  background-color: #4a37f8;
-} 
+}
 
 #img-sobre{
   border-color: #4a37f8;
@@ -247,7 +247,7 @@ i.menu-mobile {
  #html{
   color: white;
  }
- 
+
  #css{
  color: white;
  }
@@ -263,3 +263,49 @@ i.menu-mobile {
  #php{
     color: #fff;
  }
+
+
+
+
+.cv .cv-title{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+
+  .cv .cv-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+
+  .cv .cv-item h4 {
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+
+  .cv .cv-item h5 {
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .cv .cv-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #1f5297;
+    background: #fff;
+    border-radius: 50%;
+  }
