@@ -1,267 +1,310 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style.css">
-    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <title>DevJuanK</title>
-    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
-</head>
+    <link
+      rel="shortcut icon"
+      href="../static/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
-
+  <body>
     <i class="bi bi-list menu-mobile"></i>
 
-    <aside id='header'>
-        <section class="profile">
-            <img src="../static/img/perfil.png" alt="Desenvolvedor DevJuanK">
-            <h1>DevJuanK</h1>
+    <aside id="header">
+      <section class="profile">
+        <img src="../static/img/perfil.png" alt="Desenvolvedor DevJuanK" />
+        <h1>DevJuanK</h1>
 
-            <div class="social-links mt-4 text-center">
-                <a target="_blank" href="https://github.com/DevJuanzok4?tab=repositories">
-                    <i class="bi bi-github"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/juan-coutinho-288625243/">
-                    <i class="bi bi-linkedin"></i>
-                </a>
+        <div class="social-links mt-4 text-center">
+          <a
+            target="_blank"
+            href="https://github.com/DevJuanzok4?tab=repositories"
+          >
+            <i class="bi bi-github"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/juan-coutinho-288625243/"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </section>
 
-
-            </div>
-        </section>
-
-        <nav id='navbar' class="nav-menu">
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"
-                            aria-hidden="true"></i> Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sobre"><i class="bi bi-person" aria-hidden="true"></i> Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#habilidades"><i class="bi bi-list-check" aria-hidden="true"></i>
-                        Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#curriculo"><i class="bi bi-file-earmark" aria-hidden="true"></i>
-                        Currículo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio"><i class="bi bi-collection" aria-hidden="true"></i>
-                        Portfólio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contato"><i class="bi bi-envelope" aria-hidden="true"></i> Contato</a>
-                </li>
-            </ul>
-        </nav>
+      <nav id="navbar" class="nav-menu">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#inicio"
+              ><i class="bi bi-house" aria-hidden="true"></i> Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre"
+              ><i class="bi bi-person" aria-hidden="true"></i> Sobre</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades"
+              ><i class="bi bi-list-check" aria-hidden="true"></i>
+              Habilidades</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#curriculo"
+              ><i class="bi bi-file-earmark" aria-hidden="true"></i>
+              Currículo</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio"
+              ><i class="bi bi-collection" aria-hidden="true"></i> Portfólio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato"
+              ><i class="bi bi-envelope" aria-hidden="true"></i> Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
     </aside>
 
     <main id="main">
+      <section id="inicio" class="row m-0 p-0">
+        <div
+          class="col-md-5 d-flex justify-content-center align-items-center flex-column"
+        >
+          <h2 class="text-white text-shadow">Juan Coutinho</h2>
+          <span id="subtitle" class="text-white"
+            >Desenvolvedor Fullstack, e estudando para ser um programador melhor
+            a cada dia.</span
+          >
+        </div>
 
-        <section id="inicio" class="row m-0 p-0">
-            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-                <h2 class="text-white text-shadow">Juan Coutinho</h2>
-                <span id="subtitle" class="text-white">Desenvolvedor Fullstack, e estudando para ser um programador
-                    melhor a cada dia.</span>
+        <div class="col-md-7 d-flex justify-content-end align-items-end">
+          <div id="arraste" class="d-flex align-items-center">
+            <i
+              class="bi bi-arrow-down text-white pe-2 fs-2"
+              aria-hidden="true"
+            ></i>
+            <a href="#sobre">Arraste para mais</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mt-5 p-3" id="sobre">
+        <div class="row w-100">
+          <div class="col-md-12">
+            <h2 class="pt-3 text-primary">Sobre</h2>
+            <p>
+              Olá, tudo bem com você? Aqui é o Juan! Tenho 17 anos e estou
+              estudando ensino médio integrado com Técnico em Desenvolvimento de
+              Sistemas. Adoro filmes, séries e Jogos! Um dos meus favoritos é
+              Terraria. Sabe, uma coisa legal que aprendi com Terraria é a
+              importância de enfrentar os "Bosses" (chefes) um de cada vez,
+              tanto no jogo quanto na vida real. Concluir cada etapa é uma
+              vitória, não importa o tamanho, seja uma espada mais poderosa ou
+              um pequeno bug que conseguimos resolver no código. Minha paixão é
+              a tecnologia, e encarar os desafios desse mundo é algo que me
+              motiva todos os dias. Estou animado para trilhar essa jornada,
+              aprender mais e crescer com cada experiência. E aí, bora enfrentar
+              os problemas um a um, superá-los e comemorar cada conquista? Vamos
+              nessa, juntos, rumo ao sucesso! 😄
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <img
+              id="img-sobre"
+              class="img-fluid shadow border-1"
+              src="./static/img/perfil.png"
+              alt="Juan Coutinho"
+              srcset=""
+            />
+          </div>
+          <div class="col-md-8">
+            <h3 class="text-primary">Desenvolvedor Fullstack</h3>
+            <p>
+              Bom, no meu periodo de estudos, eu estudei, Html,Css,Javascript
+              para Frontend e C# e PHP para Backend, além de estudar Banco de
+              Dados com SQL, e estou começando a estudar Node.js,React e Ruby, e
+              estou aberto a aprender novas tecnologias.
+            </p>
+            <div class="row mt-3 mb-3">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush fs-5">
+                  <li class="list-group-item">
+                    Níver: <span class="fw-lighter"> 10 de julho de 2006 </span>
+                  </li>
+                  <li class="list-group-item">
+                    Idade: <span class="fw-lighter">17 anos</span>
+                  </li>
+                  <li class="list-group-item">
+                    Cidade:
+                    <span class="fw-lighter">Mongaguá</span>
+                  </li>
+                  <li class="list-group-item">
+                    Estado:
+                    <span class="fw-lighter">São Paulo</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush fs-5">
+                  <li class="list-group-item">
+                    Hobby:
+                    <span class="fw-lighter">Xadrez</span>
+                  </li>
+                  <li class="list-group-item">
+                    Sistema Operacional:
+                    <span class="fw-lighter">Linux</span>
+                  </li>
+                  <li class="list-group-item">
+                    Trabalho: <span class="fw-lighter">Freelancer</span>
+                  </li>
+                  <li class="list-group-item">
+                    Experiência:
+                    <span class="fw-lighter">1 ano e meio</span>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="col-md-7 d-flex justify-content-end align-items-end">
+      <section class="mt-5 section-bg" id="habilidades">
+        <div class="container pb-5">
+          <div class="container text-center">
+            <h2 class="pt-5 text-center text-primary">Habilidades</h2>
+            <br /><br /><br />
+            <img
+              class="img-fluid"
+              width="250px"
+              height="250px"
+              src="/static/img/devjuan-skills.svg"
+              alt="Habilidades"
+              srcset=""
+            />
+            <br />
+            <br />
+            <p class="text-center text-white">
+              Bom, no meu periodo de estudos, eu estudei, Html,Css,Javascript
+              para Frontend e C# e PHP para Backend, além de estudar Banco de
+              Dados com SQL, e estou começando a estudar Node.js,React e Ruby, e
+              estou aberto a aprender novas tecnologias.
+            </p>
+            <i id="html" class="bi bi-filetype-html fs-1 p-3"> </i>
+            <i id="js" class="bi bi-filetype-js fs-1 p-3"></i>
+            <i id="css" class="bi bi-filetype-css fs-1 p-3"></i>
+            <i id="sql" class="bi bi-filetype-sql fs-1 p-3"></i>
+            <i id="php" class="bi bi-filetype-php fs-1 p-3"></i>
+            <br />
+            <hr />
+          </div>
+        </div>
+      </section>
 
-                <div id='arraste' class="d-flex align-items-center">
+      <section class="mt-5 cv" id="curriculo">
+        <div class="container pb-5">
+          <h2 class="pt-3 pb-4">Currículo</h2>
 
-                    <i class="bi bi-arrow-down text-white pe-2 fs-2 " aria-hidden="true"></i>
-                    <a href="#sobre">Arraste para mais</a>
-                </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="cv-title">Educação</h3>
 
+              <div class="cv-item" data-anime="up">
+                <h4>Técnico em Desenvolvimento de Sistemas</h4>
+                <h5>2022 - 2024</h5>
+                <p><em>Etec Adolpho Berezin</em></p>
+                <p>
+                  Ensino Médio integrado com Desenvolvimento de sistemas, onde
+                  utilizo: HTML,CSS,JAVASCRIPT,PHP,C# e SQL.
+                </p>
+              </div>
 
+              <div class="cv-item" data-anime="up">
+                <h4>Microsoft Azure AI-900</h4>
+                <h5>2022 - 2022</h5>
+                <p><em>SENAI-Etec Adolpho Berezin</em></p>
+                <p>
+                  Introdução ao Microsoft Azure: Uma visão geral do Azure, sua
+                  importância no cenário de computação em nuvem e os principais
+                  conceitos associados à plataforma.
+                </p>
+              </div>
+
+              <div class="cv-item" data-anime="up">
+                <h4>Curso de JavaScript</h4>
+                <h5>2023 - 2023</h5>
+                <p><em>Gustavo Guanabara</em></p>
+                <p>
+                  ntrodução ao JavaScript e sua sintaxe, variáveis e tipos de
+                  dados, operadores e expressões, estruturas de controle,
+                  funções, manipulação do DOM, eventos, programação assíncrona e
+                  ES6+.
+                </p>
+              </div>
             </div>
-        </section>
+            <div class="col-md-6">
+              <h3 class="cv-title">Profissional</h3>
 
+              <div class="cv-item" data-anime="up">
+                <h4>Freelancer</h4>
+                <h5>2022 - atual</h5>
+                <p><em>Freelance de Sites/</em></p>
+                <p>
+                  Fornecia e programava sites para pequenas empresas locais e
+                  amigos utilizando: Html,Css, JavaScript e Bootstrap.
+                </p>
+              </div>
 
-        <section class="container mt-5 p-3" id='sobre'>
+              <div class="cv-item" data-anime="up">
+                <h4>Otimizador de SEO - Trabalho Voluntário</h4>
+                <h5>2023 - 2023</h5>
+                <p><em>Gustavo Biagioni</em></p>
+                <p>
+                  melhorar o posicionamento e visibilidade de um site nos
+                  resultados dos mecanismos de busca, como o Google, Bing,
+                  Yahoo, entre outros.
+                </p>
+              </div>
 
-            <div class="row w-100">
-
-                <div class="col-md-12">
-
-
-                    <h2 class="pt-3 text-primary">Sobre</h2>
-                    <p>Olá, tudo bem com você? Aqui é o Juan!
-
-                        Tenho 17 anos e estou estudando ensino médio integrado com Técnico em Desenvolvimento de
-                        Sistemas. Adoro filmes, séries e Jogos! Um dos meus favoritos é Terraria.
-
-                        Sabe, uma coisa legal que aprendi com Terraria é a importância de enfrentar os "Bosses" (chefes)
-                        um de cada vez, tanto no jogo quanto na vida real. Concluir cada etapa é uma vitória, não
-                        importa o tamanho, seja uma espada mais poderosa ou um pequeno bug que conseguimos resolver no
-                        código.
-
-                        Minha paixão é a tecnologia, e encarar os desafios desse mundo é algo que me motiva todos os
-                        dias. Estou animado para trilhar essa jornada, aprender mais e crescer com cada experiência.
-
-                        E aí, bora enfrentar os problemas um a um, superá-los e comemorar cada conquista? Vamos nessa,
-                        juntos, rumo ao sucesso! 😄
-
-                    </p>
-                </div>
-
-
+              <div class="cv-item" data-anime="up">
+                <h4>Gestor de trafégo</h4>
+                <h5>2022 - 2023</h5>
+                <p><em>Gestão de trafégo</em></p>
+                <p>
+                  planejar, executar e otimizar campanhas de marketing digital,
+                  com foco em aumentar o tráfego e a aquisição de clientes para
+                  um site
+                </p>
+              </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <img id="img-sobre" class="img-fluid shadow border-1" src="./static/img/perfil.png" alt="Juan Coutinho" srcset="">
-                </div>
-                <div class="col-md-8">
-                    <h3 class="text-primary" >Desenvolvedor Fullstack</h3>
-                    <p>Bom, no meu periodo de estudos, eu estudei, Html,Css,Javascript para Frontend e C# e PHP para
-                        Backend, além de estudar Banco de Dados com SQL, e estou começando a estudar Node.js,React e
-                        Ruby, e estou aberto a aprender novas tecnologias. </p>
-                    <div class="row mt-3 mb-3">
-                        <div class="col-md-6">
-
-                            <ul class="list-group list-group-flush fs-5">
-                                <li class="list-group-item">
-                                    Níver: <span class="fw-lighter">
-                                        10 de julho de 2006
-                                    </span>
-                                </li>
-                                <li class="list-group-item">
-                                    Idade: <span class="fw-lighter">17 anos</span>
-
-                                </li>
-                                <li class="list-group-item">Cidade:
-                                    <span class="fw-lighter">Mongaguá</span>
-
-                                </li>
-                                <li class="list-group-item"> Estado:
-                                    <span class="fw-lighter">São Paulo</span>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-
-                            <ul class="list-group list-group-flush fs-5">
-                                <li class="list-group-item"> Hobby:
-                                    <span class="fw-lighter">Xadrez</span>
-                                </li>
-                                <li class="list-group-item"> Sistema Operacional:
-                                    <span class="fw-lighter">Linux</span>
-                                </li>
-                                <li class="list-group-item">
-                                    Trabalho: <span class="fw-lighter">Freelancer</span>
-                                </li>
-                                <li class="list-group-item">
-                                    Experiência:
-                                    <span class="fw-lighter">1 ano e meio</span>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
+          </div>
+        </div>
+      </section>
 
 
+<section class="mt-3 mb-3" id="portifolio" >
+    <div class="container pb-5">
 
-                </div>
-            </div>
+</section>
 
-
-
-
-        </section>
-
-        <section class="mt-5 section-bg" id="habilidades">
-
-   <div class="container pb-5">
-    <div class="container text-center">
-    <h2 class="pt-5 text-center text-primary">Habilidades</h2>
-    <br><br><br>
-    <img class="img-fluid" width="250px" height="250px" src="/static/img/devjuan-skills.svg" alt="Habilidades" srcset="">
-    <br> <br>
-    <p class="text-center text-white">Bom, no meu periodo de estudos, eu estudei, Html,Css,Javascript para Frontend e C# e PHP para
-        Backend, além de estudar Banco de Dados com SQL, e estou começando a estudar Node.js,React e
-        Ruby, e estou aberto a aprender novas tecnologias. </p>
-    <i id="html" class="bi bi-filetype-html fs-1 p-3"> </i>
-    <i id="js" class="bi bi-filetype-js fs-1 p-3"></i>
-    <i id="css" class="bi bi-filetype-css fs-1 p-3"></i>
-    <i id="sql" class="bi bi-filetype-sql fs-1 p-3"></i>
-    <i id="php" class="bi bi-filetype-php fs-1 p-3"></i>
-    <br>
-<hr>
-   </div>
-</div>
-        </section>
-
-
-        <section class="mt-5 cv" id="curriculo">
-
-            <div class="container pb-5">
-                <h2 class="pt-3 pb-4">Currículo</h2>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="cv-title">Educação</h3>
-
-                        <div class='cv-item' data-anime="up">
-                            <h4>Técnico em Desenvolvimento de Sistemas</h4>
-                            <h5>2022 - 2024</h5>
-                            <p><em>Etec Adolpho Berezin</em></p>
-                            <p>Ensino Médio integrado com Desenvolvimento de sistemas, onde utilizo: HTML,CSS,JAVASCRIPT,PHP,C# e SQL.</p>
-                        </div>
-
-                        <div class='cv-item' data-anime="up">
-                            <h4>Microsoft Azure AI-900</h4>
-                            <h5>2022 - 2022</h5>
-                            <p><em>SENAI-Etec Adolpho Berezin</em></p>
-                            <p>Introdução ao Microsoft Azure: Uma visão geral do Azure, sua importância no cenário de computação em nuvem e os principais conceitos associados à plataforma. </p>
-                        </div>
-
-                        <div class='cv-item' data-anime="up">
-                            <h4>Curso de JavaScript</h4>
-                            <h5>2023 - 2023</h5>
-                            <p><em>Gustavo Guanabara</em></p>
-                            <p>ntrodução ao JavaScript e sua sintaxe, variáveis e tipos de dados, operadores e expressões, estruturas de controle, funções, manipulação do DOM, eventos, programação assíncrona e ES6+. </p>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6">
-                        <h3 class="cv-title">Profissional</h3>
-
-                        <div class='cv-item' data-anime="up">
-                            <h4>Freelancer</h4>
-                            <h5>2022 - atual</h5>
-                            <p><em>Freelance de Sites/</em></p>
-                            <p>Fornecia e programava sites para pequenas empresas locais e amigos utilizando: Html,Css, JavaScript e Bootstrap.</p>
-                        </div>
-
-                        <div class='cv-item' data-anime="up">
-                            <h4>Otimizador de SEO - Trabalho Voluntário</h4>
-                            <h5>2023 - 2023</h5>
-                            <p><em>Gustavo Biagioni</em></p>
-                            <p> melhorar o posicionamento e visibilidade de um site nos resultados dos mecanismos de busca, como o Google, Bing, Yahoo, entre outros. </p>
-                        </div>
-
-                        <div class='cv-item' data-anime="up">
-                            <h4>Gestor de trafégo</h4>
-                            <h5>2022 - 2023</h5>
-                            <p><em>Gestão de trafégo</em></p>
-                            <p>planejar, executar e otimizar campanhas de marketing digital, com foco em aumentar o tráfego e a aquisição de clientes para um site</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
     </main>
-
-
 
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>
-</body>
-
+  </body>
 </html>
