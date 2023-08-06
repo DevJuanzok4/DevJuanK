@@ -6,7 +6,7 @@
 
 ### Tecnologias Utilizadas
 
-- Html, Css, Python, Flask, Bootstrap e JavaScript
+- Html, Css, Python, Flask, Bootstrap e JavaScript.
 
 ## Começando
 
